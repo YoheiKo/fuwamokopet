@@ -385,14 +385,30 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Footer */}
+      {/* Footer
       <footer className="bg-stone-800 text-stone-300 py-8 text-center text-sm">
         <div className="flex justify-center gap-4 mb-4">
           <Instagram className="hover:text-white cursor-pointer transition" />
           <Twitter className="hover:text-white cursor-pointer transition" />
         </div>
         <p>&copy; 2026 ふわもこペットマンガ館 All Rights Reserved.</p>
-      </footer>
+      </footer> */}
+      {/* Footer */}
+<footer className="bg-stone-800 text-stone-300 py-8 text-center text-sm">
+  <div className="flex justify-center gap-4 mb-4">
+    <a
+      href="https://www.instagram.com/fuwamoko_manga/"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Instagram（ふわもこペットマンガ館）"
+      className="hover:text-white transition"
+    >
+      <Instagram className="cursor-pointer" />
+    </a>
+  </div>
+  <p>&copy; 2026 ふわもこペットマンガ館 All Rights Reserved.</p>
+</footer>
+
     </div>
   );
 }
