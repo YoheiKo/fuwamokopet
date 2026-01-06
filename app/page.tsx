@@ -233,10 +233,10 @@ export default function Page() {
               <p className="text-xs text-stone-400 mb-6">（税込 3,850円）</p>
 
               <ul className="text-left text-sm text-stone-600 space-y-2 mb-6 bg-orange-50 p-4 rounded-xl">
-                <li className="flex items-start gap-2">
+                {/* <li className="flex items-start gap-2">
                   <Check size={16} className="text-orange-400 mt-1" />
                   ラフ提案 1回
-                </li>
+                </li> */}
                 <li className="flex items-start gap-2">
                   <Check size={16} className="text-orange-400 mt-1" />
                   修正 1回無料
@@ -268,13 +268,13 @@ export default function Page() {
               <p className="text-xs text-stone-400 mb-6">（税込 6,600円）</p>
 
               <ul className="text-left text-sm text-stone-600 space-y-2 mb-6 bg-pink-50 p-4 rounded-xl">
-                <li className="flex items-start gap-2">
+                {/* <li className="flex items-start gap-2">
                   <Check size={16} className="text-pink-400 mt-1" />
                   ラフ提案 1回
-                </li>
+                </li> */}
                 <li className="flex items-start gap-2">
                   <Check size={16} className="text-pink-400 mt-1" />
-                  修正 2回無料
+                  修正 1回無料
                 </li>
                 <li className="flex items-start gap-2">
                   <Check size={16} className="text-pink-400 mt-1" />
